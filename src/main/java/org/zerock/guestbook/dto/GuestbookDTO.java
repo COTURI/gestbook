@@ -11,11 +11,10 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
-public class GuestbookDTO{
+public class GuestbookDTO {
     private Long gno;
     private String title;
     private String content;
     private String writer;
     private LocalDateTime regDate, modDate;
 }
-
